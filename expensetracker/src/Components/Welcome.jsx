@@ -2,7 +2,7 @@ import pic from "../imgs/alexander-grey--8a5eJ1-mmQ-unsplash.jpg";
 
 export const WelcomeElement = () => {
   return (
-    <div class="py-8 px-8 max-w-lg mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+    <div class="py-8 px-8 max-w-lg mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex m-20 sm:items-center sm:space-y-0 sm:space-x-6">
       <img
         class="block mx-auto h-24 w-24 rounded-full lg:mx-0 sm:shrink-0"
         src={pic}
