@@ -16,7 +16,7 @@ export const WelcomeElement = () => {
             income and spending behavior. Hope you enjoy it!
           </p>
         </div>
-        <button class="px-4 py-1 text-lg text-green-400 font-bold rounded-full border border-green-600 hover:text-white hover:bg-green-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2">
+        <button  class="px-4 py-1 text-lg text-green-400 font-bold rounded-full border border-green-600 hover:text-white hover:bg-green-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2">
           Start here
         </button>
       </div>
