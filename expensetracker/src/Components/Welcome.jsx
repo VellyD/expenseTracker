@@ -10,16 +10,14 @@ export const WelcomeElement = () => {
       />
       <div class="text-center space-y-2 sm:text-left">
         <div class="space-y-0.5">
-          <p class="text-lg text-black font-semibold">Let's get started</p>
-          <p class="text-slate-500 font-medium">
+          <p class="text-lg text-black font-bold">Want to start saving?</p>
+          <p class="text-slate-500 font-semibold">
             Please follow the steps below to help us get to know your name,
-            income and spending behaviour. Afterwards you will see your income,
-            split into sections. In each section you my track your expenses and
-            always know how much you have left. Hope you enjoy it!
+            income and spending behavior. Hope you enjoy it!
           </p>
         </div>
-        <button class="px-4 py-1 text-sm text-green-600 font-bold rounded-full border border-green-600 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">
-          Begin
+        <button class="px-4 py-1 text-lg text-green-600 font-bold rounded-full border border-green-600 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">
+          Start here
         </button>
       </div>
     </div>
