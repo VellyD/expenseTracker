@@ -1,29 +1,26 @@
 export const Info = () => {
   return (
-    <div>
-      <div class="md:grid md:grid-cols-3 md:gap-6">
+    <div class="m-40 ">
+      <div class=" mx-auto">
         <div class="mt-5 md:col-span-2 md:mt-0">
-          <form action="#" method="POST">
+          <form action="#" method="">
             <div class="shadow sm:overflow-hidden sm:rounded-md">
               <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
                 <div class="grid grid-cols-3 gap-6">
                   <div class="col-span-3 sm:col-span-2">
                     <label
-                      for="company-website"
+                      for="user-data"
                       class="block text-sm font-medium text-gray-700"
                     >
-                      Website
+                      Name
                     </label>
                     <div class="mt-1 flex rounded-md shadow-sm">
-                      <span class="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-500">
-                        http://
-                      </span>
                       <input
                         type="text"
-                        name="company-website"
-                        id="company-website"
+                        name="user-name"
+                        id="user"
                         class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                        placeholder="www.example.com"
+                        placeholder="John Doe"
                       />
                     </div>
                   </div>
@@ -34,20 +31,17 @@ export const Info = () => {
                     for="about"
                     class="block text-sm font-medium text-gray-700"
                   >
-                    About
+                    Salary
                   </label>
                   <div class="mt-1">
-                    <textarea
-                      id="about"
-                      name="about"
-                      rows="3"
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                      placeholder="you@example.com"
-                    ></textarea>
+                    <input
+                      type="number"
+                      name="user-salary"
+                      id="salary"
+                      class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      placeholder="2035"
+                    />
                   </div>
-                  <p class="mt-2 text-sm text-gray-500">
-                    Brief description for your profile. URLs are hyperlinked.
-                  </p>
                 </div>
               </div>
               <div class="bg-gray-50 px-4 py-3 text-right sm:px-6">
@@ -55,7 +49,7 @@ export const Info = () => {
                   type="submit"
                   class="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
-                  Save
+                  Submit
                 </button>
               </div>
             </div>
