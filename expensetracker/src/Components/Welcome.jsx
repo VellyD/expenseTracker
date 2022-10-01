@@ -2,7 +2,7 @@ import pic from "../imgs/alexander-grey--8a5eJ1-mmQ-unsplash.jpg";
 
 export const WelcomeElement = () => {
   return (
-    <div class="py-8 px-8 w-1/2 mx-auto bg-emerald-100 rounded-xl shadow-xl space-y-2 sm:py-4 sm:flex m-20 sm:items-center sm:space-y-0 sm:space-x-6">
+    <div class="py-8 px-8 w-1/2 mx-auto rounded-xl shadow-xl space-y-2 sm:py-4 sm:flex m-20 sm:items-center sm:space-y-0 sm:space-x-6">
       <img
         class="block mx-auto h-24 w-24 rounded-full lg:mx-0 sm:shrink-0"
         src={pic}
@@ -16,7 +16,7 @@ export const WelcomeElement = () => {
             income and spending behavior. Hope you enjoy it!
           </p>
         </div>
-        <button  class="px-4 py-1 text-lg text-green-400 font-bold rounded-full border border-green-600 hover:text-white hover:bg-green-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2">
+        <button  class="px-4 py-1 text-lg text-green-600 font-bold rounded-full border-2 border-green-600 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2">
           Start here
         </button>
       </div>
