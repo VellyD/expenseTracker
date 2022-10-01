@@ -1,6 +1,6 @@
 export const Info = () => {
   return (
-    <div class="m-40 ">
+    <div class="m-40 " id="form">
       <div class=" mx-auto">
         <div class="mt-5 md:col-span-2 md:mt-0">
           <form action="#" method="">
